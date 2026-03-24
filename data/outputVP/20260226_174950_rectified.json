@@ -1,0 +1,44 @@
+{
+  "input": "data/raw/20260226_174950.jpg",
+  "output": "data/march22hvp/20260226_174950_rectified.jpg",
+  "vanishing_point": {
+    "x": 1634.2620593310871,
+    "y": 1351.5595365272413
+  },
+  "vp_score": 159,
+  "camera": {
+    "focal_length_px": 3000.0,
+    "cx": 1500.0,
+    "cy": 2000.0,
+    "image_size": [
+      3000,
+      4000
+    ]
+  },
+  "camera_pose": {
+    "pitch_deg": -12.196670205242695,
+    "yaw_deg": 2.562506528477767
+  },
+  "metrics": {
+    "verticality_error": {
+      "before": 23.328375353023567,
+      "after": 22.98627089169065,
+      "unit": "degrees, lower=better"
+    },
+    "parallelism_std": {
+      "before": 8.63352141425444,
+      "after": 14.66104889228075,
+      "unit": "degrees, lower=better"
+    },
+    "vp_residual_px": {
+      "before": 479.0334936792178,
+      "after": 571.8768831084528,
+      "unit": "pixels, lower=better"
+    },
+    "vp_horizon_distance": {
+      "before": 0.16554858336085787,
+      "after": 0.5776092264057464,
+      "unit": "normalized by height, higher=more tilt"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "input": "data/raw/20260302_115831.jpg",
+  "output": "data/outputallvp/20260302_115831_rectified.jpg",
+  "vanishing_point": {
+    "x": 320.09069265679636,
+    "y": 1228.6582099546165
+  },
+  "vp_score": 55,
+  "camera": {
+    "focal_length_px": 4000.0,
+    "cx": 2000.0,
+    "cy": 1500.0,
+    "image_size": [
+      4000,
+      3000
+    ]
+  },
+  "camera_pose": {
+    "pitch_deg": -3.880739531675119,
+    "yaw_deg": -22.781301440161634
+  },
+  "metrics": {
+    "verticality_error": {
+      "before": 41.03530355429159,
+      "after": 30.74439010828764,
+      "unit": "degrees, lower=better"
+    },
+    "parallelism_std": {
+      "before": 16.096100722264225,
+      "after": 14.751651050464455,
+      "unit": "degrees, lower=better"
+    },
+    "vp_residual_px": {
+      "before": 828.8055033805224,
+      "after": 891.9958959141271,
+      "unit": "pixels, lower=better"
+    },
+    "vp_horizon_distance": {
+      "before": 0.5672273351745857,
+      "after": 0.6126451505772988,
+      "unit": "normalized by height, higher=more tilt"
+    }
+  }
+}

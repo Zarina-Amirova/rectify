@@ -1,0 +1,44 @@
+{
+  "input": "data/raw/photo_2026-03-15_14-48-28.jpg",
+  "output": "data/outputallvp/photo_2026-03-15_14-48-28_rectified.jpg",
+  "vanishing_point": {
+    "x": 791.5356200527705,
+    "y": 478.04397537379066
+  },
+  "vp_score": 14,
+  "camera": {
+    "focal_length_px": 1280.0,
+    "cx": 640.0,
+    "cy": 480.0,
+    "image_size": [
+      1280,
+      960
+    ]
+  },
+  "camera_pose": {
+    "pitch_deg": -0.08755614724049512,
+    "yaw_deg": 6.751661418040363
+  },
+  "metrics": {
+    "verticality_error": {
+      "before": 41.992350514098966,
+      "after": 46.163719349270025,
+      "unit": "degrees, lower=better"
+    },
+    "parallelism_std": {
+      "before": 19.89853656357221,
+      "after": 16.81844788524934,
+      "unit": "degrees, lower=better"
+    },
+    "vp_residual_px": {
+      "before": 168.3090784085801,
+      "after": 374.0388025705416,
+      "unit": "pixels, lower=better"
+    },
+    "vp_horizon_distance": {
+      "before": 0.15786275388358992,
+      "after": 0.6820358978445245,
+      "unit": "normalized by height, higher=more tilt"
+    }
+  }
+}
