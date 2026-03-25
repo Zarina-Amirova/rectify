@@ -38,7 +38,7 @@ RECTIFY/
 Датасет и готовые результаты хранятся на Google Drive:  https://drive.google.com/drive/folders/1nS0HRKk0c01ubfE6RJFpIehrWW3q6aAY?usp=sharing
 
 - `raw/` — исходный датасет (фото фасадов)
-- `outputVP/` — выровненные изображения (`*_rectified.jpg`)
+- `outputVP/` — выровненные изображения (`*_rectified.jpg`), (`*_rectified_debug.jpg`)
 ---
 
 ## Установка
